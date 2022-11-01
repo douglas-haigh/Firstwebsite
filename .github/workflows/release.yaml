@@ -42,4 +42,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/${{ github.actor }}/${{ github.event.repository.name }}:latest
-            ghcr.io/${{ github.actor }}/${{ github.event.repository.name }}:${{ env.RELEASE_VERSION }}
+            ghcr.io/${{ github.actor }}/website:${{ env.RELEASE_VERSION }}
